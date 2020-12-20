@@ -19,10 +19,9 @@ class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if head is None:
             return
-        temp = head
-        next = head.next
-        head.next = None
-        self.reverseList(next)
+        temp_next = head.next
+        next_next = head.next.next
+        self.reverseList(temp_next)
         head.next = next
 
 if __name__ == "__main__":
@@ -34,4 +33,4 @@ if __name__ == "__main__":
     i1 = ListNode(val=1, next=i2)
 
     result = s.reverseList(i1)
-    assert result == []
+

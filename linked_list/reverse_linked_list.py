@@ -34,5 +34,5 @@ if __name__ == "__main__":
     i2 = ListNode(val=2, next=i3)
     i1 = ListNode(val=1, next=i2)
 
-    result = s.reverseList(None)
+    result = s.reverseList(i1)
     assert result == []
