@@ -1,0 +1,4 @@
+"COLUMN NAME",DATATYPE
+name,TEXT
+valid,BOOLEAN
+count,INTEGER

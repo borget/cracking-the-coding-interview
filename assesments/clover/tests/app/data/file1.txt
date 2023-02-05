@@ -1,0 +1,6 @@
+???invalid line????
+@@@@@@ffffffff
+Diabetes  1  1
+Asthma    0-14
+invalid line 111111
+Stroke    1122

@@ -1,0 +1,14 @@
+"COLUMN NAME",WIDTH,DATATYPE
+name,12,TEX_T
+valid,1,B 00LEAN
+count,1,INTEGER
+count2,23,INTEGER
+count3,23,INTEGER
+count4,20,TEXT
+count4,10,INTEGER
+valid2,1,BOOLEAN
+count4,45,INTEG3R
+count4,45,FLOAT
+count4,45,DOUBLE
+name,12,T EX T
+name,12,_
